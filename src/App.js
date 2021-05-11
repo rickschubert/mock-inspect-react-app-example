@@ -47,27 +47,36 @@ function App() {
                     placeholder="Your e-mail"
                     onChange={emailHandler}
                 />
-                <input
-                    type="radio"
-                    name="request"
-                    value="live"
-                    onChange={radioButtonHandler}
-                />
-                <label htmlFor="live">Live Demo</label>
-                <input
-                    type="radio"
-                    name="request"
-                    value="recorded"
-                    onChange={radioButtonHandler}
-                />
-                <label htmlFor="recorded">Recorded Demo</label>
-                <input
-                    type="radio"
-                    name="request"
-                    value="1-2-1"
-                    onChange={radioButtonHandler}
-                />
-                <label htmlFor="1-2-1">1-2-1 with a representative</label>
+                <label htmlFor="live">
+                    Live Demo
+                    <input
+                        type="radio"
+                        name="demoType"
+                        id="live"
+                        value="live"
+                        onChange={radioButtonHandler}
+                    />
+                </label>
+                <label htmlFor="recorded">
+                    Recorded Demo
+                    <input
+                        type="radio"
+                        name="demoType"
+                        id="recorded"
+                        value="recorded"
+                        onChange={radioButtonHandler}
+                    />
+                </label>
+                <label htmlFor="1-2-1">
+                    1-2-1 with a representative
+                    <input
+                        type="radio"
+                        name="demoType"
+                        id="1-2-1"
+                        value="1-2-1"
+                        onChange={radioButtonHandler}
+                    />
+                </label>
                 <br />
                 <input type="button" value="Submit" onClick={forwardInputs} />
             </div>
