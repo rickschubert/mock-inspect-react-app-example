@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project has been bootstrapped using [Create React App](https://github.com/facebook/create-react-app). It is a companion repository to [my blog post](https://rickschubert.net/blog/posts/mock-inspect-what-it-is-and-how-to-use-it/) about the open-source nodejs testing library [mock-inspect](https://github.com/trayio/mock-inspect).
 
 ## Available Scripts
 
