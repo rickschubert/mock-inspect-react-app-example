@@ -1,0 +1,25 @@
+{
+    "extends": ["rickschubert", "plugin:react/recommended"],
+    "root": true,
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaVersion": 8,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "rules": {
+      "no-console": 0,
+      "no-template-curly-in-string": 0,
+      "react/react-in-jsx-scope": 0,
+      "import/no-default-export": 0
+    },
+    "globals": {
+      "beforeEach": true,
+      "beforeAll": true,
+      "afterAll": true,
+      "test": true,
+      "expect": true
+    }
+  }
