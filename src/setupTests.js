@@ -3,3 +3,20 @@
 // expect(element).toHaveTextContent(/react/i)
 // learn more: https://github.com/testing-library/jest-dom
 import '@testing-library/jest-dom';
+import {
+    cleanUpNetworkRequestMocking,
+    setUpNetworkRequestMocking,
+    tearDownNetworkRequestMocking
+} from 'mock-inspect'
+
+beforeEach(() => {
+    cleanUpNetworkRequestMocking()
+})
+
+beforeAll(() => {
+    setUpNetworkRequestMocking()
+})
+
+afterAll(() => {
+    tearDownNetworkRequestMocking()
+})
