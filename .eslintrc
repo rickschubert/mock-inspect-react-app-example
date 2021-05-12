@@ -13,7 +13,8 @@
       "no-console": 0,
       "no-template-curly-in-string": 0,
       "react/react-in-jsx-scope": 0,
-      "import/no-default-export": 0
+      "import/no-default-export": 0,
+      "indent": ["error", 2]
     },
     "globals": {
       "beforeEach": true,

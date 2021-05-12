@@ -4,19 +4,19 @@
 // learn more: https://github.com/testing-library/jest-dom
 import "@testing-library/jest-dom"
 import {
-    cleanUpNetworkRequestMocking,
-    setUpNetworkRequestMocking,
-    tearDownNetworkRequestMocking,
+  cleanUpNetworkRequestMocking,
+  setUpNetworkRequestMocking,
+  tearDownNetworkRequestMocking,
 } from "mock-inspect"
 
 beforeEach(() => {
-    cleanUpNetworkRequestMocking()
+  cleanUpNetworkRequestMocking()
 })
 
 beforeAll(() => {
-    setUpNetworkRequestMocking()
+  setUpNetworkRequestMocking()
 })
 
 afterAll(() => {
-    tearDownNetworkRequestMocking()
+  tearDownNetworkRequestMocking()
 })
