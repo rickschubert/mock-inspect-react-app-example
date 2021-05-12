@@ -2,7 +2,7 @@ import {render, screen, fireEvent, waitFor} from "@testing-library/react"
 import App from "./App"
 import {mockRequest} from "mock-inspect"
 
-test("Shows Thank You page on correct submittal", async () => {
+test("shows Thank You page on submitting the form", async () => {
   const demoRequest = mockRequest({
     requestPattern: "https://someapi.com/request-demo",
     requestMethod: "POST",
