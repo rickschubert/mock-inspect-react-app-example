@@ -43,7 +43,6 @@ function App() {
           Live Demo
           <input
             type="radio"
-            name="demoType"
             id="live"
             value="live"
             onChange={radioButtonHandler}
@@ -53,7 +52,6 @@ function App() {
           Recorded Demo
           <input
             type="radio"
-            name="demoType"
             id="recorded"
             value="recorded"
             onChange={radioButtonHandler}
@@ -63,7 +61,6 @@ function App() {
           1-2-1 with a representative
           <input
             type="radio"
-            name="demoType"
             id="1-2-1"
             value="1-2-1"
             onChange={radioButtonHandler}
