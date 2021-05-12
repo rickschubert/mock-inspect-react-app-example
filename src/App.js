@@ -17,7 +17,7 @@ function App() {
   }
 
   const radioButtonHandler = (event) => {
-    setDemoType(event.type)
+    setDemoType(event.target.value)
   }
 
   const forwardInputs = async () => {
